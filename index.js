@@ -5,11 +5,11 @@ for (let number = 0; number < 50; number++) {
   
 
   if (number % 3 ===  0 && number % 5 === 0) {
-    currentNumber = "Fizz Buzz"
+    currentNumber = "Boom Wow"
   } else if ( number % 3 ===  0) {
-    currentNumber = "Fizz"
+    currentNumber = "Boom"
   } else if (number % 5 === 0) {
-    currentNumber = "Buzz"
+    currentNumber = "Wow"
 }
 
  answer = answer + `${currentNumber}, `;   
